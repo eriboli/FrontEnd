@@ -1,0 +1,126 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  border-bottom: 1px solid var(--pri-color);
+  max-width: 90%;
+  width: 400px;
+  padding: 0.5rem;
+
+  & button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  & button img {
+    width: 64px;
+    height: 64px;
+  }
+
+  & button img:hover {
+    filter: brightness(0.9);
+  }
+}
+
+.header-container div {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+h1 {
+  color: var(--pri-color);
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.3);
+  max-width: 90%;
+  width: 400px;
+  margin-bottom: 20px;
+
+  & input {
+    padding: 10px;
+    border: 1px solid var(--pri-color);
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+    outline: var(--sec-color);
+  }
+
+  & button {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--pri-color);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  & button:hover {
+    background-color: rgba(99, 66, 33, 0.6);
+    color: white;
+  }
+}
+
+.user-card {
+  background-color: rgba(255, 255, 255, 0.3);
+  border: 0px solid var(--pri-color);
+  border-radius: 10px;
+  padding: 15px;
+  margin: 5px;
+  width: 400px;
+  max-width: 90%;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  & div p {
+    margin: 5px 0;
+    font-weight: 600;
+    color: var(--pri-color);
+
+    & span {
+      font-weight: 300;
+    }
+  }
+
+  & button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  & button img {
+    width: 24px;
+    height: 24px;
+    margin: 5px;
+  }
+
+  & button img:hover {
+    filter: brightness(0.8);
+  }
+}
+
+.user-card:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+}

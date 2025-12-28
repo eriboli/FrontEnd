@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Exo 2", sans-serif;
+  --pri-color: #634221;
+  --sec-color: #f4cb23;
+}
+
+body {
+  min-height: 100vh;
+  /* width: 100vw; */
+
+  /* background: rgba(99, 66, 33, 10);
+  background: linear-gradient(320deg, rgba(99, 66, 33, 1) 0%, rgba(244, 203, 35, 1) 100%); */
+  
+  background-image: linear-gradient(to left top, #634221, #8a5f26, #b08028, #d4a427, #f4cb23);
+
+}
