@@ -11,7 +11,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Make git pull
-      uses: appledeploy/ssh-action@v1
+      uses: appleboy/ssh-action@v1
       with:
         host: "136.113.49.179"
         username: "eriboli"
