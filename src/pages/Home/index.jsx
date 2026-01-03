@@ -61,8 +61,8 @@ function Home() {
       <div className='container'>
         <div className='header-container'>
           <div >
-            <h1>Users list</h1>
-            <p>Manage the registered users</p>
+            <h1>Lista de Usuários</h1>
+            <p>Gerencie os usuários cadastrados</p>
           </div>
           <button onClick={() => setOpenModalAddUser(!openModalAddUser)}><img src={Add} /></button>
         </div>
@@ -71,8 +71,8 @@ function Home() {
 
           <div key={user.codigo} className='user-card'>
             <div>
-              <p>Name: <span>{user.name}</span></p>
-              <p>Age: <span>{user.age}</span></p>
+              <p>Nome: <span>{user.name}</span></p>
+              <p>Idade: <span>{user.age}</span></p>
               <p>Email: <span>{user.email}</span></p>
             </div>
             <div>
