@@ -1,7 +1,9 @@
 import axios from 'axios';
 
+//console.log('API URL:', process.env.API_URL);
+
 const api = axios.create({
-  baseURL: 'https://riboli.cloud/api'
+  baseURL: process.env.API_URL
 });
 
 export default api;
